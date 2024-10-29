@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace goubs\FilamentLaravelContacts;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentLaravelContactsPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-laravel-contacts';
     }
 
     public function register(Panel $panel): void

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace goubs\FilamentLaravelContacts\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentLaravelContactsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-laravel-contacts';
 
     public $description = 'My command';
 

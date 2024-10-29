@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ngoubaux/filament-laravel-contacts",
+    "description": "Filament plugin for chuckcms/laravel-contacts",
     "keywords": [
-        ":vendor_name",
+        "ngoubaux",
         "laravel",
-        ":package_slug"
+        "filament-laravel-contacts"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ngoubaux/filament-laravel-contacts",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/ngoubaux/filament-laravel-contacts/issues",
+        "source": "https://github.com/ngoubaux/filament-laravel-contacts"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Nicolas Goubaux",
+            "email": "info@goubs.net",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "goubs\\FilamentLaravelContacts\\": "src/",
+            "goubs\\FilamentLaravelContacts\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "goubs\\FilamentLaravelContacts\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "goubs\\FilamentLaravelContacts\\FilamentLaravelContactsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentLaravelContacts": "goubs\\FilamentLaravelContacts\\Facades\\FilamentLaravelContacts"
             }
         }
     },
